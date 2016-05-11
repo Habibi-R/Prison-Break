@@ -6,6 +6,7 @@ public class Play {
 		// TODO Auto-generated method stub
 		// test
 		// more
+		//houston it is resolved
 		Game playGame = new Game(); 
 		
 		playGame.play();
