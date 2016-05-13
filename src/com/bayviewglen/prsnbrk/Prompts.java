@@ -1,4 +1,4 @@
-package Main;
+package com.bayviewglen.prsnbrk;
 
 public class Prompts {
 	private String messageToPrint="";
@@ -11,7 +11,7 @@ public class Prompts {
 		
 		messageToPrint = message;
 		
-		
+	
 	}
 	
 	public void printMessage(){
