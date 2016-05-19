@@ -2,31 +2,32 @@ package com.bayviewglen.prsnbrk;
 
 public class Item {
 
-	private String name = "";
-	private String description = "";
-
-	public String getName() {
-
-		return name;
-
-	}
-
-	public String getDescription() {
-		return description;
-	}
-
-	public void setName(String nameToSet){
-			
-			name = nameToSet;
-	}
+	private String description;
+	 private int mass;
+	 
+	 //create getters and setters
+	 public String getDescription() {
+	 return description;
+	 }
+	 public void setDescription(String description) {
+	 this.description = description;
+	 }
+	 public int getMass() {
+	 return mass;
+	 }
+	 public void setMass(int mass) {
+	 this.mass = mass;
+	 }
+	 
+	 public Item(String description, int mass) {
+	 super();
+	 this.description = description;
+	 this.mass = mass;
+	 }
+	 public Item(String description) {
+	 super();
+	 this.description = description;
+	 this.mass = 0;
+	 }
 	
-	public void setDescription(String descriptionToSet){
-		
-			description = descriptionToSet;
-	}
-	
-	
-
-	
-
 }
