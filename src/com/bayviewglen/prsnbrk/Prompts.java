@@ -10,8 +10,7 @@ public class Prompts {
 	public void setMessage(String message){
 		
 		messageToPrint = message;
-		
-	
+
 	}
 	
 	public void printMessage(){
