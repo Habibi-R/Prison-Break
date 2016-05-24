@@ -6,7 +6,7 @@ public class Inventory {
 	 private int currentIndex;
 	 ArrayList<Item> inventory;
 	 private int weight = 0;
-	 private final int MAXVAULE = 50; // the max weight a character can make
+	 private final int MAXVALUE = 50; // the max weight a character can make
 	 
 	 public Inventory(){
 	 inventory = new ArrayList<Item>(); //construct the object
@@ -14,7 +14,7 @@ public class Inventory {
 	 
 	 //how to add an item to a inventory
 	 public void addItem(Item item){ 
-	 if ((weight + item.getMass())<MAXVAULE){ //IT IS A + NOT A "+="
+	 if ((weight + item.getMass())<MAXVALUE){ //IT IS A + NOT A "+="
 	 inventory.add(item);
 	 weight += item.getMass();
 	 }else{
@@ -56,7 +56,7 @@ public class Inventory {
 	 
 	 //get the max weight you can carry
 	 public int getCapacity(){
-	 return MAXVAULE;
+	 return MAXVALUE;
 	 }
 	
 	
