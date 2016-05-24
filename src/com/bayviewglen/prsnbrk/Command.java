@@ -5,9 +5,7 @@ import java.io.Serializable;
 @SuppressWarnings("serial")
 class Command implements Serializable
 {
-    /**
-	 * 
-	 */
+	
 	private String commandWord;
     private String secondWord;
     private String thirdWord;
