@@ -35,6 +35,7 @@ class Parser implements Serializable {
 			word1 = tokenizer.nextToken(); // get first word
 		else
 			word1 = null;
+
 		if (tokenizer.hasMoreTokens())
 			word2 = tokenizer.nextToken(); // get second word
 		else
