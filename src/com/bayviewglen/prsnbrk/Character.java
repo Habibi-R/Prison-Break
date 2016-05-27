@@ -1,9 +1,9 @@
 package com.bayviewglen.prsnbrk;
 
-public class Item {
+public class Character {
 
 	private String description;
-	 private int mass;
+	private String name;
 	 
 	 //create getters and setters
 	 public String getDescription() {
@@ -12,21 +12,16 @@ public class Item {
 	 public void setDescription(String description) {
 	 this.description = description;
 	 }
-	 public int getMass() {
-	 return mass;
+	 public String getName() {
+	 return name;
 	 }
-	 public void setMass(int mass) {
-	 this.mass = mass;
+	 public void setName(String name) {
+	 this.name = name;
 	 }
-	 public Item(String description, int mass) {
+	 public Character(String description, String name) {
 	 super();
 	 this.description = description;
-	 this.mass = mass;
-	 }
-	 public Item(String description) {
-	 super();
-	 this.description = description;
-	 this.mass = 0;
+	 this.name = name;
 	 }
 	
 }
