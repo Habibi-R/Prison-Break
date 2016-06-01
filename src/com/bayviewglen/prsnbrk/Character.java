@@ -4,6 +4,7 @@ public class Character {
 
 	private String description;
 	private String name;
+	private int health=100;
 	 
 	 //create getters and setters
 	 public String getDescription() {
@@ -23,5 +24,11 @@ public class Character {
 	 this.description = description;
 	 this.name = name;
 	 }
+	 
+	 public int getHealth() {
+		 return health;
+	 }
+	 
+	 
 	
 }

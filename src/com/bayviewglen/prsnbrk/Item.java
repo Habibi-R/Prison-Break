@@ -4,6 +4,8 @@ public class Item {
 
 	private String description;
 	 private int mass;
+	 private boolean isFood;
+	 private int healingPower;
 	 
 	 //create getters and setters
 	 public String getDescription() {
@@ -23,10 +25,12 @@ public class Item {
 	 this.description = description;
 	 this.mass = mass;
 	 }
-	 public Item(String description) {
+
+	 public Item(String description, int mass, boolean isFood, int healingPower) {
 	 super();
 	 this.description = description;
-	 this.mass = 0;
+	 this.mass = mass;
+	 this.isFood = isFood;
+	 this.healingPower = healingPower;
 	 }
-	
 }
